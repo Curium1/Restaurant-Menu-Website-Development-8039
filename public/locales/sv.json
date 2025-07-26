@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "brand": "MenuCraft",
+    "demo": "Demo",
+    "getStarted": "Kom igång"
+  },
+  "hero": {
+    "title": "Förvandla din restaurang med",
+    "titleHighlight": "Digitala menyer",
+    "description": "Skapa fantastiska digitala menyer, ta emot onlinebeställningar och glädj kunder med allergivänlig filtrering. Allt med QR-kod bekvämlighet och professionell PDF-export.",
+    "startTrial": "Starta gratis provperiod",
+    "tryDemo": "Prova demo",
+    "loadingDemo": "Laddar demo...",
+    "benefits": {
+      "noSetupFees": "Inga installationsavgifter",
+      "freeTrial": "30 dagars gratis provperiod",
+      "cancelAnytime": "Avbryt när som helst"
+    },
+    "floatingElements": {
+      "ordersIncrease": "+40% beställningar",
+      "qrMenu": "QR-meny"
+    }
+  },
+  "features": {
+    "title": "Allt du behöver för att bli digital",
+    "subtitle": "Vår omfattande plattform tillhandahåller alla verktyg moderna restauranger behöver för att blomstra i den digitala tidsåldern.",
+    "items": {
+      "menuManagement": {
+        "title": "Enkel menyhantering",
+        "description": "Skapa och uppdatera din digitala meny på minuter med vårt intuitiva dra-och-släpp-gränssnitt."
+      },
+      "onlineOrders": {
+        "title": "Onlinebeställningar",
+        "description": "Ta emot beställningar direkt genom din digitala meny med integrerad betalningsbehandling."
+      },
+      "allergyFilters": {
+        "title": "Allergifilter",
+        "description": "Hjälp kunder hitta lämpliga rätter med avancerade allergen- och kostfiltreringsalternativ."
+      },
+      "pdfExport": {
+        "title": "PDF-export",
+        "description": "Generera professionella PDF-menyer omedelbart för tryck eller digital distribution."
+      }
+    }
+  },
+  "stats": {
+    "restaurants": "Restauranger",
+    "ordersProcessed": "Beställningar behandlade",
+    "uptime": "Drifttid",
+    "support": "Support"
+  },
+  "testimonials": {
+    "title": "Älskad av restaurangägare",
+    "subtitle": "Se vad våra kunder säger om sin upplevelse",
+    "items": {
+      "maria": {
+        "content": "Denna plattform revolutionerade hur vi hanterar vår meny. Beställningarna ökade med 40% sedan vi blev digitala!",
+        "name": "Maria Rodriguez",
+        "restaurant": "Bella Vista Italian"
+      },
+      "james": {
+        "content": "Allergifiltren är en game-changer. Våra kunder med kostrestriktioner känner sig trygga att beställa nu.",
+        "name": "James Chen",
+        "restaurant": "Dragon Palace"
+      },
+      "sophie": {
+        "content": "Installationen var otroligt enkel och QR-kodsystemet fungerar perfekt. Rekommenderar starkt!",
+        "name": "Sophie Laurent",
+        "restaurant": "Le Petit Bistro"
+      }
+    }
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "subtitle": "Allt du behöver veta om vår plattform",
+    "items": {
+      "setup": {
+        "question": "Hur snabbt kan jag sätta upp min digitala meny?",
+        "answer": "Du kan ha din digitala meny redo på under 30 minuter. Vårt intuitiva gränssnitt gör det enkelt att lägga till rätter, sätta priser och konfigurera allergeninformation."
+      },
+      "technical": {
+        "question": "Behöver jag teknisk kunskap för att använda denna plattform?",
+        "answer": "Inte alls! Vår plattform är designad för restaurangägare, inte utvecklare. Allt är peka-och-klicka med hjälpsamma guider längs vägen."
+      },
+      "orders": {
+        "question": "Kan kunder lägga beställningar direkt genom menyn?",
+        "answer": "Ja! Kunder kan bläddra i din meny, anpassa sina beställningar och betala direkt genom plattformen. Du får beställningar omedelbart på din instrumentpanel."
+      },
+      "qrCodes": {
+        "question": "Hur fungerar QR-koderna?",
+        "answer": "Vi genererar unika QR-koder för din restaurang som kunder kan skanna med sina telefoner. Detta öppnar omedelbart din digitala meny i deras webbläsare - ingen app krävs!"
+      },
+      "payments": {
+        "question": "Vilka betalningsmetoder stöder ni?",
+        "answer": "Vi stöder alla större kreditkort, digitala plånböcker och lokala betalningsmetoder genom vår säkra Stripe-integration."
+      },
+      "realtime": {
+        "question": "Kan jag uppdatera min meny i realtid?",
+        "answer": "Absolut! Alla ändringar du gör återspeglas omedelbart på alla kundenheter. Perfekt för dagliga specialerbjudanden eller slutsålda artiklar."
+      }
+    }
+  },
+  "cta": {
+    "title": "Redo att förvandla din restaurang?",
+    "subtitle": "Gå med tusentals restauranger som redan använder vår plattform för att öka beställningar och glädja kunder.",
+    "startTrial": "Starta din gratis provperiod",
+    "tryDemo": "Prova demo nu",
+    "loadingDemo": "Laddar demo..."
+  },
+  "footer": {
+    "brand": "MenuCraft",
+    "description": "Stärker restauranger med digitala menylösningar som driver tillväxt och kundnöjdhet.",
+    "product": {
+      "title": "Produkt",
+      "digitalMenus": "Digitala menyer",
+      "onlineOrdering": "Onlinebeställning",
+      "qrCodes": "QR-koder",
+      "analytics": "Analys"
+    },
+    "support": {
+      "title": "Support",
+      "helpCenter": "Hjälpcenter",
+      "contactUs": "Kontakta oss",
+      "training": "Utbildning",
+      "apiDocs": "API-dokumentation"
+    },
+    "company": {
+      "title": "Företag",
+      "aboutUs": "Om oss",
+      "careers": "Karriärer",
+      "privacyPolicy": "Integritetspolicy",
+      "termsOfService": "Användarvillkor"
+    },
+    "copyright": "© 2024 MenuCraft. Alla rättigheter förbehållna."
+  },
+  "auth": {
+    "title": "Restaurant SaaS",
+    "subtitle": "Komplett restauranghanteringsplattform med stöd för flera platser, onlinebeställning, betalningsbehandling och kundengagemangsverktyg.",
+    "features": {
+      "menuManagement": {
+        "title": "Menyhantering",
+        "description": "Digitala menyer med QR-koder"
+      },
+      "onlineOrders": {
+        "title": "Onlinebeställningar",
+        "description": "Webshop & leverans"
+      },
+      "payments": {
+        "title": "Betalningar",
+        "description": "Stripe-integration"
+      },
+      "reviews": {
+        "title": "Recensioner",
+        "description": "Google Reviews automation"
+      }
+    }
+  },
+  "login": {
+    "title": "Välkommen tillbaka",
+    "subtitle": "Logga in på din restauranginstrumentpanel",
+    "email": "E-postadress",
+    "password": "Lösenord",
+    "signIn": "Logga in",
+    "signingIn": "Loggar in...",
+    "noAccount": "Har du inget konto?",
+    "signUp": "Registrera dig",
+    "emailPlaceholder": "din@email.com",
+    "passwordPlaceholder": "••••••••"
+  },
+  "signup": {
+    "title": "Skapa konto",
+    "subtitle": "Gå med i vår restauranghanteringsplattform",
+    "firstName": "Förnamn",
+    "lastName": "Efternamn",
+    "email": "E-postadress",
+    "password": "Lösenord",
+    "confirmPassword": "Bekräfta lösenord",
+    "createAccount": "Skapa konto",
+    "creatingAccount": "Skapar konto...",
+    "haveAccount": "Har du redan ett konto?",
+    "signIn": "Logga in",
+    "firstNamePlaceholder": "Johan",
+    "lastNamePlaceholder": "Andersson",
+    "emailPlaceholder": "din@email.com",
+    "passwordPlaceholder": "••••••••",
+    "success": {
+      "title": "Kontrollera din e-post",
+      "message": "Vi har skickat dig en bekräftelselänk. Kontrollera din e-post och klicka på länken för att aktivera ditt konto.",
+      "backToSignIn": "Tillbaka till inloggning"
+    }
+  },
+  "common": {
+    "loading": "Laddar...",
+    "error": "Fel",
+    "success": "Framgång",
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "add": "Lägg till",
+    "remove": "Ta bort",
+    "close": "Stäng",
+    "ok": "OK",
+    "yes": "Ja",
+    "no": "Nej"
+  },
+  "language": {
+    "switchLanguage": "Byt språk",
+    "english": "English",
+    "swedish": "Svenska"
+  }
+}

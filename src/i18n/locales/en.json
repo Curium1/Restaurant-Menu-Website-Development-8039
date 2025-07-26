@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "brand": "MenuCraft",
+    "demo": "Demo",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Transform Your Restaurant with",
+    "titleHighlight": "Digital Menus",
+    "description": "Create stunning digital menus, accept online orders, and delight customers with allergen-friendly filtering. All with QR code convenience and professional PDF exports.",
+    "startTrial": "Start Free Trial",
+    "tryDemo": "Try Demo",
+    "loadingDemo": "Loading Demo...",
+    "benefits": {
+      "noSetupFees": "No setup fees",
+      "freeTrial": "30-day free trial",
+      "cancelAnytime": "Cancel anytime"
+    },
+    "floatingElements": {
+      "ordersIncrease": "+40% Orders",
+      "qrMenu": "QR Menu"
+    }
+  },
+  "features": {
+    "title": "Everything You Need to Go Digital",
+    "subtitle": "Our comprehensive platform provides all the tools modern restaurants need to thrive in the digital age.",
+    "items": {
+      "menuManagement": {
+        "title": "Easy Menu Management",
+        "description": "Create and update your digital menu in minutes with our intuitive drag-and-drop interface."
+      },
+      "onlineOrders": {
+        "title": "Online Orders",
+        "description": "Accept orders directly through your digital menu with integrated payment processing."
+      },
+      "allergyFilters": {
+        "title": "Allergy Filters",
+        "description": "Help customers find suitable dishes with advanced allergen and dietary filtering options."
+      },
+      "pdfExport": {
+        "title": "PDF Export",
+        "description": "Generate professional PDF menus instantly for print or digital distribution."
+      }
+    }
+  },
+  "stats": {
+    "restaurants": "Restaurants",
+    "ordersProcessed": "Orders Processed",
+    "uptime": "Uptime",
+    "support": "Support"
+  },
+  "testimonials": {
+    "title": "Loved by Restaurant Owners",
+    "subtitle": "See what our customers are saying about their experience",
+    "items": {
+      "maria": {
+        "content": "This platform revolutionized how we manage our menu. Orders increased by 40% since we went digital!",
+        "name": "Maria Rodriguez",
+        "restaurant": "Bella Vista Italian"
+      },
+      "james": {
+        "content": "The allergy filters are a game-changer. Our customers with dietary restrictions feel confident ordering now.",
+        "name": "James Chen",
+        "restaurant": "Dragon Palace"
+      },
+      "sophie": {
+        "content": "Setup was incredibly easy, and the QR code system works perfectly. Highly recommend!",
+        "name": "Sophie Laurent",
+        "restaurant": "Le Petit Bistro"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our platform",
+    "items": {
+      "setup": {
+        "question": "How quickly can I set up my digital menu?",
+        "answer": "You can have your digital menu ready in under 30 minutes. Our intuitive interface makes it easy to add dishes, set prices, and configure allergen information."
+      },
+      "technical": {
+        "question": "Do I need technical knowledge to use this platform?",
+        "answer": "Not at all! Our platform is designed for restaurant owners, not developers. Everything is point-and-click with helpful guides along the way."
+      },
+      "orders": {
+        "question": "Can customers place orders directly through the menu?",
+        "answer": "Yes! Customers can browse your menu, customize their orders, and pay directly through the platform. You'll receive orders instantly on your dashboard."
+      },
+      "qrCodes": {
+        "question": "How do the QR codes work?",
+        "answer": "We generate unique QR codes for your restaurant that customers can scan with their phones. This instantly opens your digital menu in their browser - no app required!"
+      },
+      "payments": {
+        "question": "What payment methods do you support?",
+        "answer": "We support all major credit cards, digital wallets, and local payment methods through our secure Stripe integration."
+      },
+      "realtime": {
+        "question": "Can I update my menu in real-time?",
+        "answer": "Absolutely! Any changes you make are instantly reflected on all customer devices. Perfect for daily specials or sold-out items."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Restaurant?",
+    "subtitle": "Join thousands of restaurants already using our platform to increase orders and delight customers.",
+    "startTrial": "Start Your Free Trial",
+    "tryDemo": "Try Demo Now",
+    "loadingDemo": "Loading Demo..."
+  },
+  "footer": {
+    "brand": "MenuCraft",
+    "description": "Empowering restaurants with digital menu solutions that drive growth and customer satisfaction.",
+    "product": {
+      "title": "Product",
+      "digitalMenus": "Digital Menus",
+      "onlineOrdering": "Online Ordering",
+      "qrCodes": "QR Codes",
+      "analytics": "Analytics"
+    },
+    "support": {
+      "title": "Support",
+      "helpCenter": "Help Center",
+      "contactUs": "Contact Us",
+      "training": "Training",
+      "apiDocs": "API Docs"
+    },
+    "company": {
+      "title": "Company",
+      "aboutUs": "About Us",
+      "careers": "Careers",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "copyright": "© 2024 MenuCraft. All rights reserved."
+  },
+  "auth": {
+    "title": "Restaurant SaaS",
+    "subtitle": "Complete restaurant management platform with multi-location support, online ordering, payment processing, and customer engagement tools.",
+    "features": {
+      "menuManagement": {
+        "title": "Menu Management",
+        "description": "Digital menus with QR codes"
+      },
+      "onlineOrders": {
+        "title": "Online Orders",
+        "description": "Webshop & delivery"
+      },
+      "payments": {
+        "title": "Payments",
+        "description": "Stripe integration"
+      },
+      "reviews": {
+        "title": "Reviews",
+        "description": "Google Reviews automation"
+      }
+    }
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Sign in to your restaurant dashboard",
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signingIn": "Signing In...",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "emailPlaceholder": "your@email.com",
+    "passwordPlaceholder": "••••••••"
+  },
+  "signup": {
+    "title": "Create Account",
+    "subtitle": "Join our restaurant management platform",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "createAccount": "Create Account",
+    "creatingAccount": "Creating Account...",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "firstNamePlaceholder": "John",
+    "lastNamePlaceholder": "Doe",
+    "emailPlaceholder": "your@email.com",
+    "passwordPlaceholder": "••••••••",
+    "success": {
+      "title": "Check Your Email",
+      "message": "We've sent you a confirmation link. Please check your email and click the link to activate your account.",
+      "backToSignIn": "Back to Sign In"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "language": {
+    "switchLanguage": "Switch Language",
+    "english": "English",
+    "swedish": "Svenska"
+  }
+}

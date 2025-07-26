@@ -1,0 +1,8 @@
+export default {
+  QUEST_HELP_QUESTID: 'c-greta-help-hub',
+  USER_ID: 'u-21622d86-339a-4044-9972-88f264084c0a',
+  APIKEY: 'k-3a1d24e5-3b54-4132-8425-2ae449c6ed92',
+  TOKEN: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ1LTIxNjIyZDg2LTMzOWEtNDA0NC05OTcyLTg4ZjI2NDA4NGMwYSIsImlhdCI6MTc1MjE1NjQ3NywiZXhwIjoxNzU0NzQ4NDc3fQ.8vO2hiUL4wcAnhY8teQPKk01lJ9IVpEPA9no2FhQcPY',
+  ENTITYID: 'e-2acaad01-af8e-491e-b6d3-f2c8a40f4ef6',
+  PRIMARY_COLOR: '#f97316' // Extracted from tailwind.config.js primary-500
+};
