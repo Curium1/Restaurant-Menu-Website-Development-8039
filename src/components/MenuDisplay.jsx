@@ -2,16 +2,19 @@ import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import * as FiIcons from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 import SafeIcon from '../common/SafeIcon';
 import { useMenu } from '../context/MenuContext';
 import SearchBar from './SearchBar';
 import FilterBar from './FilterBar';
 import MenuCategory from './MenuCategory';
 import RestaurantHeader from './RestaurantHeader';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const { FiSettings, FiQrCode } = FiIcons;
 
 const MenuDisplay = () => {
+  const { t } = useTranslation();
   const { menuData } = useMenu();
   const [searchTerm, setSearchTerm] = useState('');
   const [activeFilters, setActiveFilters] = useState([]);
@@ -51,9 +54,10 @@ const MenuDisplay = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-secondary-100">
+      <LanguageSwitcher />
       {/* Admin Quick Access */}
       <div className="fixed top-4 right-4 z-50 flex gap-2">
-        <Link to="/admin">
+        <Link to="/admin" title={t('admin')}>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -62,7 +66,7 @@ const MenuDisplay = () => {
             <SafeIcon icon={FiSettings} className="w-5 h-5 text-secondary-600" />
           </motion.button>
         </Link>
-        <Link to="/qr">
+        <Link to="/qr" title={t('qrCode')}>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -79,7 +83,7 @@ const MenuDisplay = () => {
       {/* Search and Filters */}
       <div className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-secondary-200 shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-4 space-y-4">
-          <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+          <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} placeholder={t('searchPlaceholder')} />
           <FilterBar activeFilters={activeFilters} onFiltersChange={setActiveFilters} />
         </div>
       </div>
@@ -124,8 +128,8 @@ const MenuDisplay = () => {
             <div className="w-24 h-24 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <SafeIcon icon={FiIcons.FiSearch} className="w-8 h-8 text-secondary-400" />
             </div>
-            <h3 className="text-xl font-semibold text-secondary-700 mb-2">No items found</h3>
-            <p className="text-secondary-500">Try adjusting your search or filters</p>
+            <h3 className="text-xl font-semibold text-secondary-700 mb-2">{t('noItemsFound')}</h3>
+            <p className="text-secondary-500">{t('adjustFilters')}</p>
           </motion.div>
         ) : (
           <div className="space-y-12">
@@ -145,10 +149,10 @@ const MenuDisplay = () => {
       <footer className="bg-secondary-800 text-white py-8 mt-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h3 className="text-xl font-semibold mb-2">{menuData.restaurant.name}</h3>
-          <p className="text-secondary-300 mb-4">{menuData.restaurant.description}</p>
+          <p className="text-secondary-300 mb-4">{t('restaurantDescription')}</p>
           <div className="space-y-1 text-sm text-secondary-400">
-            <p>{menuData.restaurant.address}</p>
-            <p>{menuData.restaurant.phone}</p>
+            <p>{t('restaurantAddress')}</p>
+            <p>{t('restaurantPhone')}</p>
           </div>
         </div>
       </footer>

@@ -1,0 +1,12 @@
+{
+  "admin": "Admin",
+  "qrCode": "QR-kod",
+  "search": "Sök",
+  "filters": "Filter",
+  "searchPlaceholder": "Sök efter rätter...",
+  "noItemsFound": "Inga artiklar hittades",
+  "adjustFilters": "Försök att justera din sökning eller filter",
+  "restaurantDescription": "Äkta italiensk mat med en modern twist",
+  "restaurantAddress": "Huvudgatan 123, Stad, Stat 12345",
+  "restaurantPhone": "+1 (555) 123-4567"
+}
